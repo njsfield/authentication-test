@@ -1,0 +1,27 @@
+{
+  "name": "authentication-test",
+  "version": "1.0.0",
+  "description": "To demonstrate how to use Tape to test an authenticated endpoint in a Hapi server.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/authenticated-route-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njsfield/authentication-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njsfield/authentication-test/issues"
+  },
+  "homepage": "https://github.com/njsfield/authentication-test#readme",
+  "dependencies": {
+    "hapi": "^16.0.1",
+    "hapi-auth-cookie": "^6.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "tape": "^4.6.3"
+  }
+}
