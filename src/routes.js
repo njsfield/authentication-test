@@ -5,7 +5,12 @@ module.exports = {
     auth: 'session',
     handler(req, reply) {
       if (req.auth.isAuthenticated) {
-        reply('You are allowed to see this');
+        if (req.auth.credentials.username == 'john') {
+          reply('You are allowed to see this');
+        } else {
+          reply('You are not allowed to see this');
+        }
+
       }
     },
   },
