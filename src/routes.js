@@ -1,5 +1,3 @@
-const username
-
 module.exports = {
   method: 'GET',
   path: '/authenticated-route',
